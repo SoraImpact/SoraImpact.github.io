@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>实验一</title>
+  <style>
+    .container 
+    {
+      display: flex; 
+      flex-flow: row wrap;
+      border: lpx solid #999;
+    }
+    header, footer{
+      flex: 1 100%;
+      background: #eee;
+    }
+    nav { flex: 1;}
+    article{flex: 2;}
+    .container > * {
+      padding: 10px;
+      border: 1px solid #000;
+    }
+  </style>
+ </head>
+ <body>
+  <div class = "container">
+   <header>
+    <h1>动态网页设计</h1>
+   </header>
+   <nav>
+    <ul>
+     <li><a href = "https://www.baidu.com/">首页</a></li>
+     <li><a href = "http://pan.baidu.com/">新闻</a></li>
+     <li><a href = "https://map.baidu.com/">地图</a></li>
+    </ul>
+   </nav>
+   <article>
+    <img src="..\\collection\\夹心酱.gif" alt="some_text">
+   </article>
+   <footer>
+    <P>2018041037张溟宇</P>
+   </footer>
+  </div>     
+ </body>
+</html>
